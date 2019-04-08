@@ -28,13 +28,13 @@ in `stack.yaml`
 
 ## OSX requires: 
 
-- 
+- ?
 
 ## Instructions:
 
 ``` shell
-git clone
-cd & git submodule init & git submodule update
+git clone .../hsom-exercises
+cd hsom-exercises & git submodule init & git submodule update
 stack ghci src/Exercises.lhs
 
 ```
