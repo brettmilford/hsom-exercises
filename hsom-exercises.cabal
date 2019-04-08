@@ -1,0 +1,61 @@
+name:                hsom-exercises
+version:             0.1.0.0
+-- synopsis:
+-- description:
+homepage:            https://github.com/githubuser/hsom-exercises#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Author name here
+maintainer:          example@example.com
+copyright:           2017 Author name here
+category:            Music
+build-type:          Simple
+extra-source-files:  README.md
+cabal-version:       >=1.10
+
+library
+  hs-source-dirs:      src
+  exposed-modules:     Exercises
+  other-modules:       Chapters.Ch01
+                      -- ,Chapters.Ch02
+                      -- ,Chapters.Ch03
+                      ,Chapters.Ch04
+                      ,Chapters.Ch05
+                      ,Chapters.Ch06
+                      ,Chapters.Ch07
+                      ,Chapters.Ch08
+                      ,Chapters.Ch09
+                      ,Chapters.Ch10
+                      ,Chapters.Ch11
+                      ,Chapters.Ch12
+                      ,Chapters.Ch13
+                      ,Chapters.Ch14
+                      ,Chapters.Ch15
+                      ,Chapters.Ch16
+                      ,Chapters.Ch17
+                      ,Chapters.Ch18
+                      ,Chapters.Ch19
+                      ,Chapters.Ch21
+                      ,Chapters.Ch22
+                      ,Chapters.Ch23
+                      ,Chapters.Ch24
+  build-depends:       base >= 4.7 && < 5
+                      ,Euterpea
+                      ,HSoM
+                      ,random
+                      ,markov-chain
+  default-language:    Haskell2010
+
+-- executable main
+--   hs-source-dirs:      app
+--   main-is:             Main.hs
+--   build-depends:       base >= 4.7 && < 5
+--                       ,Euterpea
+--                       ,HSoM
+--                       ,random
+--                       ,markov-chain
+--   default-language:    Haskell2010
+
+source-repository head
+  type:     git
+  location: https://github.com/githubuser/hsom-exercises
