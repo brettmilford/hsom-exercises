@@ -42,9 +42,15 @@ stack ghci src/Exercises.lhs
 ## Interesting Euterpea repositories
 
 [alexreinking-finalproject](https://github.com/alexreinking/FinalProject)
+
 [donya-kulitta](https://github.com/donya/Kulitta)
+
 [mzero-plainchanges2](https://github.com/mzero/PlainChanges2)
+
 [zmeadows-apotheosis](https://github.com/zmeadows/euterpea-compositions/blob/master/apotheosis/apotheosis.hs)
+
 [smug-genesynth](https://github.com/smudge/Haskell-Genesynth)
+
 [slevatich-popgen](https://github.com/slevatich/PopGen)
+
 [justinbach](https://github.com/justinbach/HarmonicEuterpea)
